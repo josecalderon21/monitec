@@ -1,0 +1,125 @@
+/* Estilo para los botones de notificaciones y perfil */
+div.d-flex.ms-auto button {
+    background-color: #4CAF50; /* Nuevo color verde principal */
+    border: none;
+    color: #fff;
+  }
+  
+  /* Resaltado al pasar el ratón sobre los botones */
+  div.d-flex.ms-auto button:hover {
+    background-color: #357835; /* Verde más claro al pasar el ratón */
+  }
+  
+  /* Estilo para el badge de notificaciones */
+  span.badge.bg-secondary {
+    background-color: #6c757d; /* Gris más oscuro para el fondo del badge */
+    color: #fff;
+  }
+  
+
+  /* Estilo para el botón "Menú" en la barra de navegación */
+button.btn-primary[data-bs-target="#offcanvasExample"] {
+    background-color: #4CAF50; /* Color verde principal */
+    border: none;
+  }
+  
+  /* Resaltado al pasar el ratón sobre el botón "Menú" */
+  button.btn-primary[data-bs-target="#offcanvasExample"]:hover {
+    background-color: #357835; /* Color verde más oscuro al pasar el ratón */
+  }
+  
+/* Estilos para el menú desplegable */
+.offcanvas {
+    width: 250px; /* Ancho del menú desplegable */
+  }
+  
+  .offcanvas-header {
+    background-color: #28a745; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 1.5rem; /* Espaciado interno del encabezado */
+    border-bottom: 1px solid #fff; /* Borde inferior blanco */
+  }
+  
+  .offcanvas-body {
+    padding: 1.5rem; /* Espaciado interno del cuerpo */
+  }
+  
+  
+  /* Estilos para la lista desplegable */
+  .list-group-item {
+    cursor: pointer;
+    border: none; /* Elimina el borde del elemento de la lista */
+    border-bottom: 1px solid #dee2e6; /* Borde inferior gris claro entre elementos */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    letter-spacing: 0.1rem; /* Espaciado entre letras */
+  }
+  
+  /* Resaltado al pasar el ratón sobre cada elemento de la lista */
+  .list-group-item:hover {
+    background-color: #d4edda; /* Cambia el color de fondo al pasar el ratón */
+  }
+  
+  /* Estilo para el botón de cerrar */
+  .btn-close {
+    color: #fff; /* Color del icono de cierre */
+    font-size: 1.8rem; /* Tamaño del icono de cierre */
+  }
+  
+  /* Cambia el color de fondo del botón de cerrar al pasar el ratón */
+  .btn-close:hover {
+    color: #fff;
+    background-color: #218838; /* Cambia el color al pasar el ratón */
+  }
+  
+  
+
+
+
+
+  
+  /* Resaltado al pasar el ratón sobre los botones del menú desplegable */
+  .btn-secondary:hover,
+  .dropdown-menu a:hover {
+    background-color: #357835; /* Verde más claro al pasar el ratón */
+  }
+  
+  /* Estilo para el fondo del contenido principal */
+  main.container {
+    background-color: #e9f4eb; /* Color de fondo más claro para el contenido principal */
+  }
+  
+  /* Estilo para la tabla de historial */
+  .table {
+    background-color: #fff; /* Fondo blanco para la tabla */
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #4CAF50; /* Nuevo color verde principal */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para la sección de contacto */
+  .contacto {
+    background-color: #45a049; /* Verde más oscuro para la sección de contacto */
+    padding: 140px 0 100px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Resaltado al pasar el ratón sobre los enlaces de redes sociales */
+  .redes a:hover {
+    color: #357835; /* Verde más claro al pasar el ratón sobre los enlaces */
+  }
+  
+
+  /* Estilos personalizados para las imágenes en las tarjetas */
+.card-img-top {
+    max-width: 50%;
+    max-width: 150px;
+    height: auto;
+  }
+
+  

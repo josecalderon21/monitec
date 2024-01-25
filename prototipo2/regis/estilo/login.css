@@ -1,0 +1,45 @@
+body {
+    background: 
+      url('/img/fondo.png') no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  }
+  
+  /* Estilos para botones y texto */
+  .bg-info,
+  .text-info,
+  .btn-info {
+    background-color: #a5d6a7 !important; /* Cambia el color de info a un tono más claro */
+    border-color: #004d40 !important; /* Cambia el color del borde a un tono más oscuro */
+    color: #ffffff !important; /* Texto blanco */
+  }
+  
+  .bg-white {
+    background-color: #ffffff !important; /* Fondo blanco */
+    color: #004d40 !important; /* Texto oscuro */
+  }
+  
+  .form-select,
+  .form-control {
+    background-color: #e0f2f1 !important; /* Color de fondo más claro */
+    color: #004d40 !important; /* Texto oscuro */
+  }
+  
+  .form-check-input {
+    background-color: #e0f2f1 !important; /* Color de fondo más claro */
+  }
+  
+  a {
+    color: #00796b !important; /* Cambia el color de los enlaces a verde */
+  }
+  
+  a:hover {
+    color: #004d40 !important; /* Cambia el color del enlace al pasar el mouse a un tono más oscuro */
+  }
+  
